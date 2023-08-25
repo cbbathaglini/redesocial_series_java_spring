@@ -52,7 +52,7 @@ MUITO BOA = 4
 Você também deve criar testes end-to-end (e2e) coerentes com as funcionalidades que implementar nas classes.
 <h2>Banco de dados</h2>
 O banco de dados a ser utilizado fica a critério do desenvolvedor.</br>
-Caso o banco seja MySQL</br>
+Caso o banco seja MariaDB</br>
 O arquivo database.sql irá criar as tabelas, adicionará algumas séries, usuários, notas e comentários de usuários.</br>
 A partir do arquivo percebe-se que vão existir 4 tabelas:</br>
 - tabela de séries (cada série contém seu nome, ano em que foi ao ar o primeiro episódio e o número de temporadas)</br>
@@ -63,4 +63,13 @@ A partir do arquivo percebe-se que vão existir 4 tabelas:</br>
 <h2>Collection</h2>
 Na pasta utils o arquivo o arquivo collection_env_redesocial, já tem parte da collection gerada no Insomia.
 
-Obs: Todas as dependências necessárias já estão no pom.xml caso seja MySQL.
+Obs: Todas as dependências necessárias já estão no pom.xml caso seja MariaDB.
+
+
+
+
+
+
+
+
+
